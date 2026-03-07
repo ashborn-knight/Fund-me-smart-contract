@@ -15,6 +15,11 @@ contract FundMe {
     // a transaction spends gas....whether its a failure or not
 
     }
+
+    function getPrice() public{
+    //Address 0x694AA1769357215DE4FAC081bf1f309aDC325306
+    //ABI
+    }
      
   //  function withdraw() public{}
 
