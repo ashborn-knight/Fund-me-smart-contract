@@ -60,11 +60,11 @@ contract FundMe {
     // Ether is sent to contract
     //      is msg.data empty?
     //          /   \
-    //         yes  no
+    //      if  yes  no
     //         /     \
     //    receive()?  fallback()
     //     /   \
-    //   yes   no
+    // if yes   no
     //  /        \
     //receive()  fallback()
 
